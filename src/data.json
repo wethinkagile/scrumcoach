@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "name": "Stephan A. Kristyn",
+    "title": "Scrum Coach",
+    "website": "https://scrumcoach.ing",
+    "location": "Munich, BY",
+    "email": "stephan@scrumcoach.ing",
+    "phone": "+49 (160) 11-44-830",
+    "bio": "My name is Stephan and I am pleased to meet you. I am a Scrum.org® certified Scrum Master™Certified DevOps 2.0 Coach, as well as Microsoft certified Azure AZ-900 and Google certified Site Reliability Engineer, I am extraordinarily pleased to offer you and your organisation my services based on me being a certified ISO27001 Advisor. Since I am Linux Professional Instititue accredited, added to me being a Berkely certified AI/ML Software Engineer, I not only am Oxford-graduated Software Engineer, last but certainly not least as an Oxford-accredited Business Coach would be a valuable addition to your team with positive impact on the status quo of your team's dynamic."
+  },
+  "education": [
+    {
+      "institution": "University of Washington",
+      "location": "Seattle, WA",
+      "area": "Computer Science",
+      "degreeType": "Bachelor of Science",
+      "endDate": "2015"
+    }
+  ],
+  "work": [
+    {
+      "company": "Treatmind GmbH ",
+      "position": "Chief Technology Officer",
+      "location": "Berlin",
+      "startDate": "09/21",
+      "endDate": "Present",
+      "highlights": [
+        "Facilitated sprint planning sessions, sprint reviews, sprint retrospectives, and daily scrums, fostering collaboration among cross-functional teams, aligning with stakeholders, and promoting continuous improvement. ",
+        "Provided agile coaching to the management and CEO, focusing on the development of a microservice-based Android application and obtaining approval as a Class 1 psychotherapeutic CE medical product from the BfArM.",
+        "Documented the requirements of the DiGA regulation of the Federal Ministry of Drugs using UML techniques. I worked on designing the architecture of IT systems, such as servers, storage, security, backups, identity management, IT operations, DevSecOps, and cloud computing container orchestration on-premise, private cloud, and hybrid environments. Additionally, I was involved in the migration of existing systems as part of a cloud journey following the Greenfield approach.",
+        "Contributed to planning sprints and managing the software stack, which included Google Android SDK, iOS XCode, Kubermatic, Rancher, Kubernetes, Open Telekom Cloud, Cloud Container Engine, Cloudtrace, NodeJS, FeathersJS, Flutter, ReactJS, Confluence, WikiJS, and Nextcloud. ",
+        "Liaised with major German health insurance providers to ensure a successful collaboration.",
+        "Facilitated the establishment of an internal ISMS, conducted ISO 27001 workshops, and implemented a BSI-compliant two-factor authentication system and a GDPR-compliant data protection mechanism to ensure data security and privacy."
+      ]
+    },
+    {
+      "company": "Red Hat Inc",
+      "position": "Software Development Engineer",
+      "location": "Grassbrunn",
+      "startDate": "10/20",
+      "endDate": "10/21",
+      "highlights": [
+        "Co-Responsible for the architecture, planning, and implementation of highly redundant data centers at four locations in High Availability Mode. This was part of a Cloud-Journey following the Brownfield approach.",
+        "Gathered system requirements using UML techniques such as Data Flow Diagrams and Process Flow Diagrams in MIRO and other on-site tools in Hannover.",
+        "Guided the team along the Scrum Framework and DevOps 2.0 methodologies to prevent escalations and enable higher-frequency delivery. Actively planning Sprints, Sprint Reviews, Sprint Retrospectives, and Daily Scrums, I demonstrated a strong commitment to the Red Hat Agile Community.",
+        "The software stack for this project included Red Hat OpenShift, Red Hat Quay, Red Hat Ceph Storage, Red Hat OpenStack, Red Hat Ansible, PSQL, RHEL 8.3, Redis, Red Hat Clair, Red Hat Ansible Tower, Python Robot, Microsoft Azure VM, Azure IAM, Azure Active Directory, and Microsoft Power Apps.",
+        "Managed relationships with Finanz Informatik Hannover, fostering successful partnerships and ensuring overall project success."
+      ]
+    },
+    {
+      "company": "MunichRE Group AG",
+      "position": "Scrum Master & DevOps Coach",
+      "location": "Munich",
+      "startDate": "05/16",
+      "endDate": "05/19",
+      "highlights": [
+        "Collaborated with insurance specialists and trained SCRUM teams in NEXUS. I gathered requirements using UML techniques to plan the migration of the existing infrastructure as part of a Cloud-Journey following the Colouredfield approach, with a focus on the development of a microservice-based Android application using the Android SDK.",
+        "Coached OpsDev, and Product Owners while conducting Sprint Plannings, Sprint Reviews, Sprint Retrospectives, and Daily Scrums. I introduced a DevOps 2.0 work culture with fast feedback loops between Deloitte Digital, Thetaris, and MunichRE.",
+        "Setup of a Mobile Delivery Pipeline and implementing a test framework and developed the CI/CD pipelines with RBAC/OpenID authentication tools for CI/CD, and managed versioning and packaging of hybrid mobile apps. Additionally, I programmed microservice APIs and oversaw the migration of search solutions, infrastructure hardening, and Kubernetes monitoring.",
+        "The software stack utilized in this project included Red Hat OpenShift, Red Hat Quay, AWS CDK, CLI, IAM, S3, Lambda, RDS, VPC, EC2, EKS, ECS, SDK, IAM, Route53, ELB, ECR, Cloudfront, Cloudwatch, Pricing, CDK Toolkit, Visual Studio Code, GitHub, Jenkins, Helm, Python, Groovy, Ansible, Bash, BuddyBuild, Apple Testflight, Browserstack, Helm, CodeShip, TravisCI, K8s, Selenium/Apium, Protractor, Jasmine, Mocha, PyUnit, JIRA, Confluence, Slack, NodeJS, Java, Spring, Gradle, PSQL, Elastic Search, MongoDB, Buddybuild, Testflight, Ionic, Google Android SDK, Apple XCode, Ionic 4, Web Components, Cordova, Xcode SDK, Android SDK, Angular4, Vue JS, TypeScript, JavaScript, SASS, LESS, CSS, Webpack, NPM, Yarn, Elastic Search, Kibana Logging, Prometheus, Dynatrace, Logentries, Elastic Search Cloud & in Cluster, MongoDB Atlas, Auth0, SSL, Let‘s Encrypt, OpenID, Oauth, Kubernetes Secrets, Kubernetes, Microsoft Helm, AWS, Elastic Search, Jenkins, Git, Docker, Podman, Fedora, Arch, Azure, HashiCorp Terraform, NodeJS, AngularJS, Selenium, Python.",
+        "Co-managed relationships with MSV Life Insurance, Fidelidade SA, and MunichRE Group, fostering successful partnerships and ensuring overall project success, including the development and delivery of the Android application."
+      ]
+    },
+    {
+      "company": "RTL Group S.A.",
+      "position": "Scrum Master",
+      "location": "Munich",
+      "startDate": "06/14",
+      "endDate": "03/16",
+      "highlights": [
+        "Conducted interviews to gather requirements and performed self-contained requirements analysis using UML data modeling, data flow diagrams, user cases, process flow diagrams, and ISO 20926 function point analysis. This was done to design the architecture and develop creditor software and its cloud environment with storage and Identity Access Management. The IT infrastructure was migrated using the Greenfield approach.",
+        "Coached CEOs and project managers in Scrum Framework methods and facilitated workshops. Planned and executed Sprints, Sprint Planning, Sprint Reviews, Sprint Retrospectives, Product Backlog Item Refinements, and Daily Scrums. I provided SCRUM coaching to the entire organization.",
+        "The software stack utilized in this project included Red Hat Openshift, AWS Cloud Container Engine, NodeJS, MongoDB, SQL, SAP/Hana, AngularJS, CoffeeScript, HTML5, CSS3, SASS, as well as analysis tools like Apache Spark, AWS EMR, Lambda, S3, SQS, GCP, GKE, mrjob, Luigi, Python, and test automation tools such as Git, Jasmine, Karma, Mocha, Chai, and Should, Expect.",
+        "Co-managed relationships with RTL Deutschland, IP Deutschland, and MairDumont, fostering successful partnerships and ensuring overall project success."
+      ]
+    },
+    {
+      "company": "Yahoo Deutschland GmbH ",
+      "position": "Partner Operations Manager (FTE)",
+      "location": "Munich",
+      "startDate": "11/11",
+      "endDate": "11/12",
+      "highlights": [
+        "Collaborated with BUs in the UK, Germany, and France to gather requirements and represent them in UML for the architecture of a Cloud Monitoring Cluster in the Y! Cloud.",
+        "Developed the Ad-Server Dashboard and designed the ISMS security concept. Additionally, I planned and participated in Sprint Plannings and Sprint Reviews to ensure smooth project execution.",
+        "The software stack utilized in this project included JavaScript, PHP, SQL, HTML, and Yahoo packaging, while the system was built on Red Hat Enterprise Linux (RHEL) as the operating system."
+      ]
+    },
+    {
+      "company": "Intel Mobile Communications GmbH ",
+      "position": "Software Engineer (Intern)",
+      "location": "Munich",
+      "startDate": "05/11",
+      "endDate": "10/11",
+      "highlights": [
+        "Facilitated the database migration from Infineon AG's R&D services to Intel Mobile Communications GmbH and further developed a Reverse Engineering System.",
+        "Utilized software stack that included JSP, JavaScript, HTML, JavaEE, JavaBeans, Eclipse, Netbeans, Intel Linux, Windows IIS, PL/SQL scripting, and Oracle.",
+        "Co-managed relationships with LG Mobile, Nokia, Infineon AG, and Intel Inc., ensuring seamless collaboration and project success."
+      ]
+    },
+    {
+      "company": "Microsoft Deutschland GmbH ",
+      "position": "Premier Support Engineer (FTE)",
+      "location": "Munich",
+      "startDate": "04/07",
+      "endDate": "04/09",
+      "highlights": [
+        "Provided proactive Enterprise IT support for clients in the Defense, Banking, Hi-Tech, German Federal Government, State Government, and EU Commission sectors.",
+        "Managed relationships with the German Federal Government, Bavarian State Government, EU Commission, Police, Aviation Security, BASF, Mercedes, Siemens, SAP, and Sparkassenverband, ensuring excellent client satisfaction and project success.",
+        "The software stack included Wireshark, Netmon, SSL, TKIP, TCP/IP, C, JavaScript, Microsoft IIS, Microsoft Internet Explorer, Certificates, SSL, TCP/IP, TKIP, Kerberos, NTLM, JavaScript, HTML, CSS, Jquery, VB, C++, C#, VMWare, Hypervisor, Microsoft Server, TCP/IP, DNS, and OSI Layer analysis tools."
+      ]
+    },
+    {
+      "company": "HDPnet GmbH",
+      "position": "Software Engineer (FTE)",
+      "location": "Heidelberg",
+      "startDate": "12/01",
+      "endDate": "12/06",
+      "highlights": [
+        "Conducted requirements analysis and built On-Prem IT infrastructures using Debian Linux, SSL, TCP/IP, DNS, and BlackBerry Server. I also developed several applications to meet the specific needs of the clients.",
+        "The software stack included JavaScript, HTML, CSS, and SQL.",
+        "Worked closely with Sparkasse Finanzgruppe and Sozietät Hengeler Mueller, ensuring that their unique requirements were met and fostering successful collaborations."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Methods",
+      "keywords": [
+        "Agile",
+        "DevOps",
+        "Scrum",
+        "Non-Directive",
+        "Reflective Practice",
+        "Unconditional Positive Regard"]
+    },
+    {
+      "name": "Tools and Technologies",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "TypeScript",
+        "NodeJS",
+        "React/Next/Vue"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "description": "Feathers can interact with any backend technology, supports many databases out of the box and works with any frontend like React, VueJS, Angular, React Native, Android or iOS.",
+      "url": "https://github.com/feathersjs/feathers",
+      "name": "FeatherJS",
+      "repo": "feathersjs/feathers",
+      "stars": "15k"
+    },
+    {
+      "description": "[builds, analyzes, distributes] your container images",
+      "url": "https://github.com/quay/quay-ansible",
+      "name": "Red Hat Quay",
+      "repo": "quay/quay-ansible",
+      "stars": "11"
+    },
+    {
+      "description": "Hetzner is a well-known German Cloud Hosting Service",
+      "url": "https://github.com/vuejs/core",
+      "name": "Vue.js",
+      "repo": "vuejs/core",
+      "stars": "44.4k"
+    }
+  ]
+}

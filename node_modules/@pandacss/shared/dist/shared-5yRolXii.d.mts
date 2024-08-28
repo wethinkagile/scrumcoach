@@ -1,0 +1,94 @@
+declare const isString: (v: any) => v is string;
+declare const isBoolean: (v: any) => v is boolean;
+type AnyFunction = (...args: any[]) => any;
+declare const isFunction: (v: any) => v is AnyFunction;
+declare function isObject(value: any): value is Record<string, any>;
+
+interface CreateCssContext {
+    hash?: boolean;
+    /**
+     * Partial properties from the Utility class
+     */
+    utility: {
+        prefix: string;
+        hasShorthand: boolean;
+        resolveShorthand: (prop: string) => string;
+        transform: (prop: string, value: any) => {
+            className: string;
+        };
+        toHash: (path: string[], toHash: (str: string) => string) => string;
+    };
+    /**
+     * Partial properties from the Condition class
+     */
+    conditions?: {
+        breakpoints: {
+            keys: string[];
+        };
+        shift: (paths: string[]) => string[];
+        finalize: (paths: string[]) => string[];
+    };
+}
+declare function createCss(context: CreateCssContext): ({ base, ...styles }?: Record<string, any>) => string;
+interface StyleObject {
+    [key: string]: any;
+}
+declare function createMergeCss(context: CreateCssContext): {
+    mergeCss: (...styles: StyleObject[]) => StyleObject;
+    assignCss: (...styles: StyleObject[]) => any;
+};
+
+declare function compact<T extends Record<string, any>>(value: T): T;
+
+declare const isBaseCondition: (v: string) => boolean;
+declare function filterBaseConditions(c: string[]): string[];
+
+type Predicate<R = any> = (value: any, path: string[]) => R;
+type MappedObject<T, K> = {
+    [Prop in keyof T]: T[Prop] extends Array<any> ? MappedObject<T[Prop][number], K>[] : T[Prop] extends Record<string, unknown> ? MappedObject<T[Prop], K> : K;
+};
+type WalkObjectStopFn = (value: any, path: string[]) => boolean;
+interface WalkObjectOptions {
+    stop?: WalkObjectStopFn;
+    getKey?(prop: string, value: any): string;
+}
+declare function walkObject<T, K>(target: T, predicate: Predicate<K>, options?: WalkObjectOptions): MappedObject<T, ReturnType<Predicate<K>>>;
+declare function mapObject(obj: any, fn: (value: any) => any): any;
+
+declare function toHash(value: string): string;
+
+declare const hypenateProperty: (property: string) => string;
+
+declare function isImportant<T extends string | number | boolean>(value: T): boolean;
+declare function withoutImportant<T extends string | number | boolean>(value: T): string | T;
+declare function withoutSpace<T extends string | number | boolean>(str: T): string | T;
+type Dict$1 = Record<string, unknown>;
+declare function markImportant(obj: Dict$1): {};
+
+declare const memo: <T extends (...args: any[]) => any>(fn: T) => T;
+
+declare function mergeProps<T extends Record<string, unknown>>(...sources: T[]): T;
+
+declare const patternFns: {
+    map: typeof mapObject;
+    isCssFunction: (v: unknown) => boolean;
+    isCssVar: (v: unknown) => boolean;
+    isCssUnit: (v: unknown) => boolean;
+};
+declare const getPatternStyles: (pattern: any, styles: Record<string, any>) => any;
+
+declare const getSlotRecipes: (recipe?: Record<string, any>) => Record<string, any>;
+declare const getSlotCompoundVariant: <T extends {
+    css: any;
+}>(compoundVariants: T[], slotName: string) => (T & {
+    css: any;
+})[];
+
+type Dict = Record<string, unknown>;
+type PredicateFn = (key: string) => boolean;
+type Key = PredicateFn | string[];
+declare function splitProps(props: Dict, ...keys: Key[]): Dict[];
+
+declare const uniq: <T>(...items: T[][]) => T[];
+
+export { type CreateCssContext as C, type MappedObject as M, type WalkObjectStopFn as W, isBoolean as a, isFunction as b, isObject as c, createCss as d, createMergeCss as e, compact as f, isBaseCondition as g, filterBaseConditions as h, isString as i, hypenateProperty as j, isImportant as k, withoutSpace as l, markImportant as m, memo as n, mergeProps as o, patternFns as p, getPatternStyles as q, getSlotRecipes as r, getSlotCompoundVariant as s, toHash as t, splitProps as u, uniq as v, withoutImportant as w, type WalkObjectOptions as x, walkObject as y, mapObject as z };
