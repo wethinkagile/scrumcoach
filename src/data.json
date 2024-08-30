@@ -1,20 +1,27 @@
 {
   "meta": {
     "name": "Stephan A. Kristyn",
-    "title": "Scrum Coach",
+    "title": "SWE and Cloud DevOps",
     "website": "https://scrumcoach.ing",
     "location": "Munich, BY",
     "email": "stephan@scrumcoach.ing",
     "phone": "+49 (160) 11-44-830",
-    "bio": "My name is Stephan and I am pleased to meet you. I am a Scrum.org® certified Scrum Master™Certified DevOps 2.0 Coach, as well as Microsoft certified Azure AZ-900 and Google certified Site Reliability Engineer, I am extraordinarily pleased to offer you and your organisation my services based on me being a certified ISO27001 Advisor. Since I am Linux Professional Instititue accredited, added to me being a Berkely certified AI/ML Software Engineer, I not only am Oxford-graduated Software Engineer, last but certainly not least as an Oxford-accredited Business Coach would be a valuable addition to your team with positive impact on the status quo of your team's dynamic."
+    "bio": "My name is Stephan and I'm a Scrum.org® certified Scrum Master™ and a certified DevOps 2.0 Coach, as well as Microsoft Azure certified and a Google certified Site Reliability Engineer (SRE), and I am extraordinarily pleased to offer you and your organisation my services. Since I am a certified Linux Professional (LPIC), added by me being a Berkeley-certified AI/ML Software Engineer, and being an Oxford-graduated Software Engineer, and an Oxford-accredited Coach I am sure I would be a valuable addition to your team with a positive impact on the status quo of your team's dynamic."
   },
   "education": [
     {
-      "institution": "University of Washington",
-      "location": "Seattle, WA",
+      "institution": "University of Oxford",
+      "location": "Oxford, UK",
+      "area": "Psychology",
+      "degreeType": "Master of Science",
+      "endDate": "ongoing"
+    },
+    {
+      "institution": "University of Oxford",
+      "location": "Oxford, UK",
       "area": "Computer Science",
-      "degreeType": "Bachelor of Science",
-      "endDate": "2015"
+      "degreeType": "Advanced Diploma",
+      "endDate": "2010"
     }
   ],
   "work": [
@@ -57,7 +64,7 @@
         "Collaborated with insurance specialists and trained SCRUM teams in NEXUS. I gathered requirements using UML techniques to plan the migration of the existing infrastructure as part of a Cloud-Journey following the Colouredfield approach, with a focus on the development of a microservice-based Android application using the Android SDK.",
         "Coached OpsDev, and Product Owners while conducting Sprint Plannings, Sprint Reviews, Sprint Retrospectives, and Daily Scrums. I introduced a DevOps 2.0 work culture with fast feedback loops between Deloitte Digital, Thetaris, and MunichRE.",
         "Setup of a Mobile Delivery Pipeline and implementing a test framework and developed the CI/CD pipelines with RBAC/OpenID authentication tools for CI/CD, and managed versioning and packaging of hybrid mobile apps. Additionally, I programmed microservice APIs and oversaw the migration of search solutions, infrastructure hardening, and Kubernetes monitoring.",
-        "The software stack utilized in this project included Red Hat OpenShift, Red Hat Quay, AWS CDK, CLI, IAM, S3, Lambda, RDS, VPC, EC2, EKS, ECS, SDK, IAM, Route53, ELB, ECR, Cloudfront, Cloudwatch, Pricing, CDK Toolkit, Visual Studio Code, GitHub, Jenkins, Helm, Python, Groovy, Ansible, Bash, BuddyBuild, Apple Testflight, Browserstack, Helm, CodeShip, TravisCI, K8s, Selenium/Apium, Protractor, Jasmine, Mocha, PyUnit, JIRA, Confluence, Slack, NodeJS, Java, Spring, Gradle, PSQL, Elastic Search, MongoDB, Buddybuild, Testflight, Ionic, Google Android SDK, Apple XCode, Ionic 4, Web Components, Cordova, Xcode SDK, Android SDK, Angular4, Vue JS, TypeScript, JavaScript, SASS, LESS, CSS, Webpack, NPM, Yarn, Elastic Search, Kibana Logging, Prometheus, Dynatrace, Logentries, Elastic Search Cloud & in Cluster, MongoDB Atlas, Auth0, SSL, Let‘s Encrypt, OpenID, Oauth, Kubernetes Secrets, Kubernetes, Microsoft Helm, AWS, Elastic Search, Jenkins, Git, Docker, Podman, Fedora, Arch, Azure, HashiCorp Terraform, NodeJS, AngularJS, Selenium, Python.",
+        "The software stack utilized in this project included Java, Spring, Gradle, NodeJS, TypeScript, AngularJS, VueJS, SASS, LESS, Webpack, NPM, Yarn, Python, Ionic, Google Android SDK, Apple XCode, Ionic 4, Cordova, Xcode SDK, Android SDK, Groovy, Ansible, Bash, TravisCI, CodeShip, Jenkins, Git, Helm, Docker, Red Hat OpenShift, Quay, AWS CDK, Kubernetes (K8s), Azure, Terraform, Elasticsearch, MongoDB, PSQL, Selenium/Appium, Protractor, Jasmine, Mocha, PyUnit, Browserstack, Groovy, Ansible, Bash, JIRA, Confluence, Slack, Elasticsearch, Kibana, Dynatrace, Logentries, Auth0, Let‘s Encrypt, OpenID, Oauth",
         "Co-managed relationships with MSV Life Insurance, Fidelidade SA, and MunichRE Group, fostering successful partnerships and ensuring overall project success, including the development and delivery of the Android application."
       ]
     },
@@ -125,31 +132,32 @@
   ],
   "skills": [
     {
-      "name": "Methods",
+      "name": "Coaching Methods",
       "keywords": [
-        "Agile",
-        "DevOps",
-        "Scrum",
-        "Non-Directive",
+        "Congruence & Empathy",
         "Reflective Practice",
         "Unconditional Positive Regard"]
     },
     {
       "name": "Tools and Technologies",
       "keywords": [
-        "Docker",
-        "Kubernetes",
-        "Git",
-        "MySQL",
-        "MongoDB",
-        "PostgreSQL",
-        "TypeScript",
-        "NodeJS",
-        "React/Next/Vue"
+        "Docker, Kubernetes, Helm, Kustomize, RHEL",
+        "Azure, AWS, Hetzner, OTC, Openshift",
+        "Git, Quay, ArgoCD, Jenkins",
+        "PostgreSQL, MongoDB", "SQLite",
+        "NodeJS, Java, Python, Bash",
+        "Ionic, Flutter, React, Angular, Next, Vue"
       ]
     }
   ],
   "projects": [
+    {
+      "description": "A safe home for all your data.",
+      "url": "https://github.com/nextcloud/server",
+      "name": "Nextcloud",
+      "repo": "nextcloud/server",
+      "stars": "26.5k"
+    },
     {
       "description": "Feathers can interact with any backend technology, supports many databases out of the box and works with any frontend like React, VueJS, Angular, React Native, Android or iOS.",
       "url": "https://github.com/feathersjs/feathers",
@@ -158,18 +166,11 @@
       "stars": "15k"
     },
     {
-      "description": "[builds, analyzes, distributes] your container images",
-      "url": "https://github.com/quay/quay-ansible",
+      "description": "Builds, analyzes, distributes your container images",
+      "url": "https://github.com/quay/quay",
       "name": "Red Hat Quay",
-      "repo": "quay/quay-ansible",
-      "stars": "11"
-    },
-    {
-      "description": "Hetzner is a well-known German Cloud Hosting Service",
-      "url": "https://github.com/vuejs/core",
-      "name": "Vue.js",
-      "repo": "vuejs/core",
-      "stars": "44.4k"
+      "repo": "quay/quay",
+      "stars": "2.5k"
     }
   ]
 }

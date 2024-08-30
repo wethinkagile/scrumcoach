@@ -21,7 +21,7 @@ const pdfFilename = `/${data.meta.name.toLowerCase().replaceAll(" ", "-")}-resum
   >
     <PrintButton href={pdfFilename} />
   </div>
-  <SectionHeader>Why you shouldn't miss out on my profile</SectionHeader>
+  <SectionHeader>Executive Summary</SectionHeader>
   <p>{data.meta.bio}</p>
   <SectionHeader>Work</SectionHeader>
   <div class={flex({ direction: "column", gap: { base: "6", xl: "8" } })}>
@@ -125,6 +125,7 @@ const pdfFilename = `/${data.meta.name.toLowerCase().replaceAll(" ", "-")}-resum
       data.education.map((edu) => (
         <li class={flex({ align: "baseline", gap: "4" })}>
           <h3 class={subtitle}>{edu.institution}</h3>
+          <p>{edu.area}</p>
           <p>{edu.degreeType}</p>
           <p class={css({ ml: "auto" })}>{edu.endDate}</p>
         </li>
